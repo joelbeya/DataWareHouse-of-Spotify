@@ -14,3 +14,7 @@ Entrepôts de données et Big Data**, dispensé à l'Université de Montpellier.
 [MINKO AMOA Imrhan Dareine](imrhan-dareine.minko-amoa@etu.umontpellier.fr)  
 [QUENETTE Christophe](christophe.quenette@etu.umontpellier.fr)  
 [RAIHAUTI Teiki](teiki.raihauti@etu.umontpellier.fr)  
+
+### Liens Utiles
+
+[OverLeaf Spotify](https://www.overleaf.com/21016748xywhhzrbnstk)  
