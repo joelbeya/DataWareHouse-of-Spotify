@@ -1,0 +1,1 @@
+INSERT INTO USER_DIM VALUES(1, 'Perkins','ac@sociis.com','M','19-NOV-1992','5808','Viano','Congo','Africa','NONE','Samsung');
