@@ -178,7 +178,6 @@ INSERT INTO USER_DIM VALUES (177,'May','est.ac@accumsanneque.net','M','14-Aug-19
 INSERT INTO USER_DIM VALUES (178,'Rana','aliquet.metus.urna@Donecfelis.co.uk','F','23-Nov-1978','5135','Montevideo','Uruguay','South-America','VISA','DORO');
 INSERT INTO USER_DIM VALUES (179,'Ramona','elit@necmetusfacilisis.com','F','19-Jun-2003','98701','Piriapolis','Uruguay','South-America','VISA','ONEPLUS');
 INSERT INTO USER_DIM VALUES (180,'Isadora','et@egetnisidictum.edu','M','05-Jun-1974','9001','Salto','Uruguay','South-America','NONE','ONEPLUS');
-
 INSERT INTO USER_DIM VALUES (181,'Noble','nulla.vulputate.dui@atvelitPellentesque.ca','F','18-Jan-2007','56831','Mendoza','Argentina','South-America','AMERICAN EXPRESS','IPHONE');
 INSERT INTO USER_DIM VALUES (182,'Walker','scelerisque.mollis.Phasellus@consectetueradipiscing.com','F','17-Nov-1996','23424','Cordoba','Argentina','South-America','VISA','MEIZU');
 INSERT INTO USER_DIM VALUES (183,'Isaac','est@dictumProineget.edu','F','24-May-1998','9889','Cordoba','Argentina','South-America','MASTERCARD','BQ');
@@ -211,7 +210,6 @@ INSERT INTO USER_DIM VALUES (209,'Brielle','bibendum@laciniaat.org','F','03-Apr-
 INSERT INTO USER_DIM VALUES (210,'Austin','in@porttitor.org','M','12-Jul-1994','G4L 8Z1','Cordoba','Argentina','South-America','VISA','SAMSUNG');
 INSERT INTO USER_DIM VALUES (211,'Hedwig','elementum.lorem.ut@Nulla.net','M','07-Oct-2009','616962','Cordoba','Argentina','South-America','GIFT CARD','NONE');
 INSERT INTO USER_DIM VALUES (212,'Ann','Sed.nulla.ante@Phaselluslibero.com','M','10-Dec-1984','71947-400','San Carlos de Baridoche','Argentina','South-America','MASTERCARD','MEIZU');
-
 INSERT INTO USER_DIM VALUES (213,'Lael','cursus.et@facilisiSed.org','M','08-Jul-1997','30115','Kobe','Japon','Asia','GIFT CARD','SAMSUNG');
 INSERT INTO USER_DIM VALUES (214,'Jin','non.lorem.vitae@necurna.edu','M','23-Sep-1978','8256','Nagoya','Japon','Asia','GIFT CARD','SAMSUNG');
 INSERT INTO USER_DIM VALUES (215,'Sylvester','euismod.enim@risusodio.com','F','09-Feb-2007','19710','Osaka','Japon','Asia','VISA','SAMSUNG');
@@ -267,7 +265,6 @@ INSERT INTO USER_DIM VALUES (264,'Marah','nulla.ante@imperdiet.edu','M','31-Aug-
 INSERT INTO USER_DIM VALUES (265,'Dante','ornare.lectus.ante@dictumeu.co.uk','M','21-Sep-2003','5191 ZV','Kyoto','Japon','Asia','GIFT CARD','ASUS');
 INSERT INTO USER_DIM VALUES (266,'Rama','enim@Nullam.org','F','09-Apr-1993','67134','Hiroshima','Japon','Asia','VISA','SAMSUNG');
 INSERT INTO USER_DIM VALUES (267,'Tad','nunc.est.mollis@Donectempuslorem.net','F','28-Jun-1991','087506','Tokyo','Japon','Asia','GIFT CARD','BLACKBERRY');
-
 INSERT INTO USER_DIM VALUES (268,'Jordan','montes.nascetur.ridiculus@ametrisusDonec.com','M','22-Oct-1996','94322','Pekin','Chine','Asia','VISA','LG');
 INSERT INTO USER_DIM VALUES (269,'Walter','vel@euaccumsansed.co.uk','F','17-Aug-1974','4238','Pekin','Chine','Asia','VISA','MEIZU');
 INSERT INTO USER_DIM VALUES (270,'Shay','ipsum@ultrices.co.uk','F','24-Sep-2003','9048','Pekin','Chine','Asia','MASTERCARD','LG');
@@ -359,7 +356,6 @@ INSERT INTO USER_DIM VALUES (355,'Rowan','aliquam@libero.edu','M','16-Jul-2007',
 INSERT INTO USER_DIM VALUES (356,'Giacomo','ante@urna.com','F','28-Jun-1976','7412','Shenzhen','Chine','Asia','VISA','XIAOMI');
 INSERT INTO USER_DIM VALUES (357,'Arsenio','Aliquam.erat.volutpat@Donecsollicitudinadipiscing.com','F','02-Nov-2000','11397','Chongqing','Chine','Asia','NONE','SAMSUNG');
 INSERT INTO USER_DIM VALUES (358,'Keefe','Quisque.libero.lacus@id.co.uk','F','12-Aug-1967','61918','Chongqing','Chine','Asia','MASTERCARD','BQ');
-
 INSERT INTO USER_DIM VALUES (359,'Ifeoma','scelerisque@sed.net','F','25-Jun-1965','289830','Daegu','South Korea','Asia','VISA','IPHONE');
 INSERT INTO USER_DIM VALUES (360,'Shafira','sollicitudin.adipiscing@tinciduntnibh.co.uk','M','11-Sep-1987','54-234','Gwangju','South Korea','Asia','MASTERCARD','MOTOROLA');
 INSERT INTO USER_DIM VALUES (361,'Yasir','ornare.placerat.orci@acurna.edu','M','05-Oct-1984','3493','Gyeongju','South Korea','Asia','AMERICAN EXPRESS','XIAOMI');
@@ -411,8 +407,6 @@ INSERT INTO USER_DIM VALUES (406,'Gisela','massa.rutrum.magna@amet.edu','M','24-
 INSERT INTO USER_DIM VALUES (407,'Iola','vehicula.risus@Cum.edu','M','26-Apr-1977','5086','Punsan','South Korea','Asia','NONE','NONE');
 INSERT INTO USER_DIM VALUES (408,'Cullen','turpis@ipsum.co.uk','M','17-Aug-1985','J4B 6Y7','Incheon','South Korea','Asia','MASTERCARD','IPHONE');
 INSERT INTO USER_DIM VALUES (409,'Jamal','lacus.Aliquam.rutrum@quamdignissim.com','F','24-Dec-2008','1280','Gwangju','South Korea','Asia','NONE','LG');
-
-
 INSERT INTO USER_DIM VALUES (410,'Lael','enim@DonecegestasAliquam.net','M','23-Sep-1977','14-002','Pattaya','Thailand','Asia','NONE','NONE');
 INSERT INTO USER_DIM VALUES (411,'Tanek','ipsum@sagittislobortis.edu','F','03-Sep-2009','T4Z 9H9','Chiang Mai','Thailand','Asia','MASTERCARD','ARCHOS');
 INSERT INTO USER_DIM VALUES (412,'Abraham','semper@eleifendCras.co.uk','F','29-Dec-1973','54724','Bangkok','Thailand','Asia','VISA','ARCHOS');
@@ -453,7 +447,6 @@ INSERT INTO USER_DIM VALUES (446,'Demetrius','urna.suscipit@necorci.org','M','12
 INSERT INTO USER_DIM VALUES (447,'Sean','amet@facilisisloremtristique.org','M','03-Jul-1968','42529','Chiang Mai','Thailand','Asia','NONE','BQ');
 INSERT INTO USER_DIM VALUES (448,'Nina','eget@Morbiquisurna.net','F','15-Jan-1967','55-107','Chiang Rai','Thailand','Asia','MASTERCARD','DORO');
 INSERT INTO USER_DIM VALUES (449,'Cullen','euismod.mauris@gravidanunc.net','M','28-Oct-2008','2929','Hua Hin','Thailand','Asia','NONE','DORO');
-
 INSERT INTO USER_DIM VALUES (450,'Maya','lacus.varius@porttitor.org','F','08-Apr-1986','47267','Franceville','Gabon','Africa','VISA','BLACKBERRY');
 INSERT INTO USER_DIM VALUES (451,'Kylie','odio.Nam.interdum@velit.edu','F','09-Apr-2009','41937','Port-Gentil','Gabon','Africa','AMERICAN EXPRESS','LG');
 INSERT INTO USER_DIM VALUES (452,'Ursula','Vivamus@lorem.net','F','03-Nov-2002','2722 TE','Kango','Gabon','Africa','VISA','XIAOMI');
@@ -482,7 +475,6 @@ INSERT INTO USER_DIM VALUES (474,'Abbot','arcu.Sed.et@doloregestas.co.uk','M','1
 INSERT INTO USER_DIM VALUES (475,'Jackson','elit.pellentesque.a@enimconsequatpurus.edu','F','31-May-1976','407484','Port-Gentil','Gabon','Africa','GIFT CARD','MOTOROLA');
 INSERT INTO USER_DIM VALUES (476,'Xyla','ut.lacus@vitaemaurissit.com','M','10-Jan-1980','62166','Moanda','Gabon','Africa','AMERICAN EXPRESS','SAMSUNG');
 INSERT INTO USER_DIM VALUES (477,'Alvin','quam.a@variusultricesmauris.com','F','02-Apr-1989','73340','Moanda','Gabon','Africa','GIFT CARD','ARCHOS');
-
 INSERT INTO USER_DIM VALUES (478,'Montana','quis.tristique.ac@nuncinterdum.net','F','10-Sep-1984','267682','Accra','Ghana','Africa','NONE','IPHONE');
 INSERT INTO USER_DIM VALUES (479,'Melinda','auctor@semegetmassa.edu','M','11-Oct-2001','240662','Sekondi','Ghana','Africa','AMERICAN EXPRESS','LG');
 INSERT INTO USER_DIM VALUES (480,'Benjamin','ut@loremutaliquam.net','F','03-Nov-2003','80663-003','Tema','Ghana','Africa','AMERICAN EXPRESS','XIAOMI');
@@ -512,7 +504,6 @@ INSERT INTO USER_DIM VALUES (503,'August','quis.arcu.vel@justoeuarcu.net','M','2
 INSERT INTO USER_DIM VALUES (504,'Veda','non.hendrerit@risus.com','M','09-Aug-2002','27664','Sekondi','Ghana','Africa','VISA','LG');
 INSERT INTO USER_DIM VALUES (505,'Gage','elit@pedesagittisaugue.org','M','25-Sep-1976','9472','Kumasi','Ghana','Africa','MASTERCARD','BQ');
 INSERT INTO USER_DIM VALUES (506,'Graiden','risus.quis.diam@orci.com','M','26-Jul-1977','686719','Sekondi','Ghana','Africa','VISA','HUAWEI');
-
 INSERT INTO USER_DIM VALUES (507,'Shelly','rutrum.justo.Praesent@cursus.org','M','18-Oct-2001','7965','Johannesburg','South-Africa','Africa','AMERICAN EXPRESS','MOTOROLA');
 INSERT INTO USER_DIM VALUES (508,'Martin','ac.mattis@velit.net','F','27-Feb-1970','1654','Durban','South-Africa','Africa','GIFT CARD','ZTE');
 INSERT INTO USER_DIM VALUES (509,'Vera','risus@turpis.net','M','03-Aug-1989','OB6F 8YY','Pretoria','South-Africa','Africa','VISA','IPHONE');
@@ -534,8 +525,6 @@ INSERT INTO USER_DIM VALUES (524,'Julie','metus.In@Aliquamtinciduntnunc.com','M'
 INSERT INTO USER_DIM VALUES (525,'Armand','nec.mauris.blandit@rhoncus.org','M','21-Sep-1984','28987','Johannesburg','South-Africa','Africa','NONE','MOTOROLA');
 INSERT INTO USER_DIM VALUES (526,'Zachary','sodales.nisi.magna@ametconsectetueradipiscing.org','F','02-May-2009','1994','Durban','South-Africa','Africa','VISA','XIAOMI');
 INSERT INTO USER_DIM VALUES (527,'Aidan','elementum.sem@ligula.co.uk','F','29-Sep-1995','40039','Pretoria','South-Africa','Africa','VISA','BQ');
-
-
 INSERT INTO USER_DIM VALUES (528,'Veda','quam@euplacerat.org','F','14-Dec-2004','18-052','Mombasa','Kenya','Africa','GIFT CARD','XIAOMI');
 INSERT INTO USER_DIM VALUES (529,'Shana','dolor.Quisque@rutrummagna.ca','M','28-Sep-1996','30832','Eldoret','Kenya','Africa','MASTERCARD','NONE');
 INSERT INTO USER_DIM VALUES (530,'Lenore','tellus@sapien.ca','F','21-Jun-1965','556028','Malindi','Kenya','Africa','NONE','XIAOMI');
@@ -558,7 +547,6 @@ INSERT INTO USER_DIM VALUES (546,'Cheryl','Nullam.scelerisque@eutellus.co.uk','M
 INSERT INTO USER_DIM VALUES (547,'Denton','mollis.dui.in@urna.org','F','24-Jul-1979','89199','Malindi','Kenya','Africa','GIFT CARD','NONE');
 INSERT INTO USER_DIM VALUES (548,'Ruby','Sed@cursuset.com','F','03-Sep-1991','614424','Kisumu','Kenya','Africa','NONE','XIAOMI');
 INSERT INTO USER_DIM VALUES (549,'Wesley','erat@convallisconvallis.edu','F','15-Mar-1991','318024','Nakuru','Kenya','Africa','GIFT CARD','XIAOMI');
-
 INSERT INTO USER_DIM VALUES (550,'Ezekiel','arcu.vel@interdum.org','M','16-May-1996','56754','Lubumbashi','RDC Congo','Africa','NONE','HUAWEI');
 INSERT INTO USER_DIM VALUES (551,'Maris','commodo.auctor.velit@eliteratvitae.com','M','14-Mar-1996','S9R 2S8','Bukavu','RDC Congo','Africa','NONE','NONE');
 INSERT INTO USER_DIM VALUES (552,'Honorato','nec.mollis@Mauris.ca','M','24-Apr-2006','10409','Matadi','RDC Congo','Africa','GIFT CARD','ZTE');
