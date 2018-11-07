@@ -210,7 +210,6 @@ INSERT INTO USER_DIM VALUES (209,'Brielle','bibendum@laciniaat.org','F','03-Apr-
 INSERT INTO USER_DIM VALUES (210,'Austin','in@porttitor.org','M','12-Jul-1994','G4L 8Z1','Cordoba','Argentina','South-America','VISA','SAMSUNG');
 INSERT INTO USER_DIM VALUES (211,'Hedwig','elementum.lorem.ut@Nulla.net','M','07-Oct-2009','616962','Cordoba','Argentina','South-America','GIFT CARD','NONE');
 INSERT INTO USER_DIM VALUES (212,'Ann','Sed.nulla.ante@Phaselluslibero.com','M','10-Dec-1984','71947-400','San Carlos de Baridoche','Argentina','South-America','MASTERCARD','MEIZU');
-
 INSERT INTO USER_DIM VALUES (213,'Bakugo','cursus.et@facilisiSed.org','M','08-Jul-1997','30115','Kobe','Japon','Asia','GIFT CARD','SAMSUNG');
 INSERT INTO USER_DIM VALUES (214,'Jin','non.lorem.vitae@necurna.edu','M','23-Sep-1978','8256','Nagoya','Japon','Asia','GIFT CARD','SAMSUNG');
 INSERT INTO USER_DIM VALUES (215,'Sylvester','euismod.enim@risusodio.com','F','09-Feb-2007','19710','Osaka','Japon','Asia','VISA','SAMSUNG');
@@ -573,10 +572,35 @@ INSERT INTO PLATFORM_DIM VALUES (2,'Iphone 7','Smartphone','158.2','77.9','iOS',
 INSERT INTO PLATFORM_DIM VALUES (3,'Iphone 8','Smartphone','158.4','78.1','iOS','2.39 GHz hexa-core',NULL,NULL);
 INSERT INTO PLATFORM_DIM VALUES (4,'Iphone X','Smartphone','143.6','70.9','iOS','2.39 GHz hexa-core',NULL,NULL);
 INSERT INTO PLATFORM_DIM VALUES (5,'Iphone Xs','Smartphone','123.8','58.6','iOS','2.49 GHz hexa-core',NULL,NULL);
-INSERT INTO PLATFORM_DIM VALUES (6,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
-INSERT INTO PLATFORM_DIM VALUES (7,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
-INSERT INTO PLATFORM_DIM VALUES (8,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
-INSERT INTO PLATFORM_DIM VALUES (9,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
-INSERT INTO PLATFORM_DIM VALUES (11,'Mac','PC',NULL,NULL,'macOS',NULL,NULL,NULL);
-INSERT INTO PLATFORM_DIM VALUES (12,'Windows','PC',NULL,NULL,'Microsoft Windows',NULL,NULL,NULL);
-INSERT INTO PLATFORM_DIM VALUES (13,'Linux','PC',NULL,NULL,'GNU/Linux',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Samsung S7','Smartphone','142.4','69.6','Android','Samsung Exynos 8890 ',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (7,'Samsung S8','Smartphone','148.9','68.1','Android','Exynos 8895 Octa',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (8,'Samsung S9','Smartphone','147.7','68.8','Android','2.49 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (9,'Samsung A5 2017','Smartphone','146.1','71.4','Android','Exynos 7880 Octa',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (10,'Sony Xperia XZ3','Smartphone','158','73','Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (11,'Sony Xperia X','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (12,'Sony Xperia XZ','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (13,'Sony Xperia E5','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (14,'Alcatel 5v','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (15,'Alcatel 3x','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (16,'Alcatel Pulsemix','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (17,'Asus Zenfone V','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (18,'Asus Zenfone Go','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (19,'Asus ZenPad','Tablet',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (20,'Archos Access 70','Tablet',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (21,'Archos Core 101','Tablet',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (22,'Archos 70 Oxygen','Tablet',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (23,'BlackBerry Evolve X','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (24,'BlackBerry Keyone','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (25,'BlackBerry Aurora','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (26,'BQ Aquaris X2','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (27,'BQ Aquaris U','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (28,'BQ Aquaris M10','Tablet',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (26,'BQ Aquaris X2','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (27,'BQ Aquaris U','Smartphone',NULL,NULL,'Android',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (28,'Aquaris M10','Tablet',NULL,NULL,'Android',NULL,NULL,NULL);
+
+
+
+INSERT INTO PLATFORM_DIM VALUES (50,'Mac','PC',NULL,NULL,'macOS',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (51,'Windows','PC',NULL,NULL,'Microsoft Windows',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (52,'Linux','PC',NULL,NULL,'GNU/Linux',NULL,NULL,NULL);
