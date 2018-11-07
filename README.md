@@ -17,4 +17,5 @@ Entrepôts de données et Big Data**, dispensé à l'Université de Montpellier.
 
 ### Liens Utiles
 
-[OverLeaf Spotify](https://www.overleaf.com/21016748xywhhzrbnstk)  
+[OverLeaf rapport Spotify](https://www.overleaf.com/21016748xywhhzrbnstk)  
+[OverLeaf présentation Spotify](https://www.overleaf.com/6915936457gpjrmdcxpjvy)  
