@@ -578,3 +578,17 @@ INSERT INTO USER_DIM VALUES (565,'Jared','justo@vulputatemaurissagittis.co.uk','
 INSERT INTO USER_DIM VALUES (566,'Claire','cubilia@Integerinmagna.com','F','04-Apr-1992','1878','Kisangani','RDC Congo','Africa','MASTERCARD','ZTE');
 INSERT INTO USER_DIM VALUES (567,'Plato','diam.Sed@mi.org','M','24-Apr-1978','74-186','Bukavu','RDC Congo','Africa','NONE','DORO');
 INSERT INTO USER_DIM VALUES (568,'Daquan','arcu.Sed@consequatauctornunc.com','F','12-Sep-1968','35624','Lubumbashi','RDC Congo','Africa','VISA','BQ');
+
+INSERT INTO PLATFORM_DIM VALUES (1,'Iphone 5','Smartphone','123.8','58.6','iOS','1,3 Ghz Dual-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (2,'Iphone 6','Smartphone','158.1','77.8','iOS','1.4 GHz dual-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (3,'Iphone 7','Smartphone','158.2','77.9','iOS','2.34 GHz quad-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (4,'Iphone 8','Smartphone','158.4','78.1','iOS','2.39 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (5,'Iphone X','Smartphone','143.6','70.9','iOS','2.39 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Iphone Xs','Smartphone','123.8','58.6','iOS','2.49 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Iphone Xs','Smartphone','123.8','58.6','Android','2.49 GHz hexa-core',NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Mac','PC',NULL,NULL,'macOS',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Windows','PC',NULL,NULL,'Microsoft Windows',NULL,NULL,NULL);
+INSERT INTO PLATFORM_DIM VALUES (6,'Linux','PC',NULL,NULL,'GNU/Linux',NULL,NULL,NULL);
