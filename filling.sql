@@ -740,8 +740,14 @@ INSERT INTO ARTIST_DIM VALUES (8,'Damso','09-Jun-1980','Rap','Congolese',4321564
 INSERT INTO ARTIST_DIM VALUES (9,'Rihanna','09-Jun-1980','R and B','Barbadian',30126458,7632145,'English',NULL,'03-Mar-2013');
 INSERT INTO ARTIST_DIM VALUES (10,'Kendrick Lamar','09-Jun-1980','Rap','American',29651324,6532148,'English',NULL,'03-Mar-2013');
 
+
 ------------------------------------------------------------------ REMPLISSAGE MUSIC_DIM ------------------------------------------------------------------------------------------
 
+INSERT INTO MUSIC_DIM VALUES (1, 'Bella', 'Pop', '01-Jun-2013', 186, 'NO', 165, 'NO');
+INSERT INTO MUSIC_DIM VALUES (2, 'Oulala', 'Pop', '23-Mar-2018', 192, 'NO', 153, 'NO');
+INSERT INTO MUSIC_DIM VALUES (3, 'Only girl', 'Pop', '20-Feb-2010', 180, 'NO', 142, 'NO');
+INSERT INTO MUSIC_DIM VALUES (4, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO');
+INSERT INTO MUSIC_DIM VALUES (5, 'Djadja', 'Rap', '6-Apr-2018', 182, 'NO', 172, 'NO');
 INSERT INTO MUSIC_DIM VALUES (6,'Mad ABout The Boy','Soul','05-May-1968',145,'NO',96,'NO');
 INSERT INTO MUSIC_DIM VALUES (7,'What A Diffrence A Day Makes','Soul','12-Feb-1980',156,'NO',96,'NO');
 INSERT INTO MUSIC_DIM VALUES (8,'Four Women','Soul','23-Jun-1980',145,'NO',96,'NO');
@@ -758,3 +764,5 @@ INSERT INTO MUSIC_DIM VALUES (18,'Rehab','R and B','30-May-2012',145,'NO',112,'N
 INSERT INTO MUSIC_DIM VALUES (19,'Kalash','Rap','05-May-2013',145,'NO',135,'NO');
 INSERT INTO MUSIC_DIM VALUES (20,'Boulbi','Rap','05-May-2004',145,'NO',96,'NO');
 INSERT INTO MUSIC_DIM VALUES (21,'Thriller','Pop','05-May-1975',145,'NO',96,'NO');
+
+------------------------------------------------------------------ REMPLISSAGE PLAYLIST_DIM ------------------------------------------------------------------------------------------
