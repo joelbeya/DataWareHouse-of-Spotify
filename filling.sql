@@ -662,3 +662,36 @@ INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (3,'FAMILY PREMIUM','Premium Subscripti
 INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (4,'STUDENT PREMIUM','Premium Subscription for Students (50% Off)','Students',1,4.99,1,'320 KBPS','YES');
 
 ----------------------------------------------------------------- REMPLISSAGE PROMOTION_DIM ----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------- REMPLISSAGE DATE_DIM ----------------------------------------------------------------------------------------
+
+DECLARE @start_date DATE;
+DECLARE @end_date DATE;
+
+SET @start_date = '2018-01-01';
+SET @start_date = '2018-12-31';
+
+WITH DATE_DIM
+AS
+(
+    SELECT @start_date as date_val
+    UNION ALL
+    SELECT DATEADD(DAY, 1, date_val)
+    FROM DATE_DIM
+    WHERE DATEADD(DAY, 1, date_val) <= @end_date
+)
+
+INSERT INTO DATE_DIM
+SELECT
+    FORMAT(date_val, 'yyyymmdd') AS DATE_KEY,
+    TO_DATE(date_val) AS FULL_DATE,
+    EXTRACT(DAY FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS DAY,
+    EXTRACT(MONTH FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS MONTH,
+    EXTRACT(YEAR FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS YEAR,
+    'UNKNOWN' AS SEASON,
+    'NO' AS WEEKEND_INDICATOR,
+    'NO' AS GIFT_PERIOD_INDICATOR,
+
+FROM
+    DATE_DIM
+OPTION (maxrecursion 0)
