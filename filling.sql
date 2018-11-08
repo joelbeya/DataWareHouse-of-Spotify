@@ -767,8 +767,23 @@ INSERT INTO MUSIC_DIM VALUES (21,'Thriller','Pop','05-May-1975',145,'NO',96,'NO'
 
 ------------------------------------------------------------------ REMPLISSAGE PLAYLIST_DIM ------------------------------------------------------------------------------------------
 
-INSERT INTO PLAYLIST_DIM VALUES (1, 'La base', 'Spotify', 'Ben la base quoi', 2018, 5, 'De tout', 'NONE', 1221);
+INSERT INTO PLAYLIST_DIM VALUES (1, 'La base', 'Spotify', 'Ben la base quoi', 2018, 5, 'De tout', 'NONE', 1221, 'NO', 'NO');
 
 ------------------------------------------------------------------ REMPLISSAGE SPOTIFY_STREAM ------------------------------------------------------------------------------------------
 
-INSERT INTO SPOTIFY_STREAM VALUES (1, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO', 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180915, 222324, 1, 21, 11, 1, 1, 'NO', 150, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20181026, 124555, 1, 18, 9, 1, 1, 'NO', 110, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180211, 164511, 1, 12, 10, 1, 1, 'NO', 120, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180313, 084510, 1, 16, 7, 1, 1, 'NO', 145, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180422, 094807, 1, 4, 8, 1, 1, 'NO', 145, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180603, 174800, 1, 2, 1, 1, 1, 'NO', 180, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180707, 202028, 1, 17, 8, 1, 1, 'NO', 140, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180606, 112018, 5, 3, 9, 1, 5, 'NO', 170, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180220, 132219, 5, 20, 2, 1, 5, 'NO', 140, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180102, 142834, 5, 22, 11, 1, 1, 'NO', 140, 0, 'YES');
+INSERT INTO SPOTIFY_STREAM VALUES (20180408, 041136, 5, 22, 11, 1, 1, 'NO', 140, 0, 'YES');
+
+------------------------------------------------------------------ REMPLISSAGE SPOTIFY_SUBSCRIPTION ------------------------------------------------------------------------------------------
+
+INSERT INTO SPOTIFY_SUBSCRIPTION VALUES (20180615, 1, 1, 1, 1, 0, NULL, NULL, NULL);
+INSERT INTO SPOTIFY_SUBSCRIPTION VALUES (20180519, 5, 3, 1, 1, 9.99, NULL, NULL, NULL);
