@@ -771,7 +771,6 @@ INSERT INTO MUSIC_DIM VALUES (23,'Beat it','Pop', '22-07-1983',240,'NO',120,'NO'
 ------------------------------------------------------------------ REMPLISSAGE PLAYLIST_DIM ------------------------------------------------------------------------------------------
 
 INSERT INTO PLAYLIST_DIM VALUES (1, 'La base', 'Spotify', 'Ben la base quoi', 2018, 5, 'De tout', 'NONE', 1221, 'NO', 'NO');
-INSERT INTO PLAYLIST_DIM VALUES (1, 'La base', 'Spotify', 'Ben la base quoi', 2018, 5, 'De tout', 'NONE', 1221);
 INSERT INTO PLAYLIST_DIM VALUES (2, 'Jazz Vibes', 'Spotify', 'Only Jazz Music', 2018, 200, 'Jazz', 'NONE', 40000, 'YES','NO');
 INSERT INTO PLAYLIST_DIM VALUES (3, 'Fresh Rap', 'Spotify', 'Les nouveautés Rap, Hip-Hop', 2018, 30, 'Rap', 'NONE', 6000, 'YES','NO');
 INSERT INTO PLAYLIST_DIM VALUES (4, 'Good Old Vibes', 'Spotify', 'Throwback To Last Centuries Songs', 2012, 500, 'Rap', 'NONE', 100000, 'YES','NO');
