@@ -1,5 +1,5 @@
 -- Connaître le temps moyen d’écoute d’une musique
-CREATE OR REPLACE MATERIALIZED VIEW MV_Average_listening_time_of_musics
+CREATE MATERIALIZED VIEW MV_Average_listening_time_of_musics
 BUILD IMMEDIATE
 REFRESH COMPLETE
 ON DEMAND
@@ -10,7 +10,7 @@ WHERE SPOTIFY_STREAM.MUSIC_KEY = MUSIC_DIM.MUSIC_KEY
 WITH CHECK OPTION;
 
 -- Connaître les types de musique les plus écoutés suivant la région du globe
-CREATE OR REPLACE MATERIALIZED VIEW MV_most_listening_music_type_by_region
+CREATE MATERIALIZED VIEW MV_most_listening_music_type_by_region
 BUILD IMMEDIATE
 REFRESH FAST
 ON DEMAND
@@ -24,7 +24,7 @@ GROUP BY CONTINENT, COUNTRY, GENRE, TITLE
 WITH CHECK OTPION;
 
 -- Connaître le nombre d'utilisateurs écoutant un certain genre de playlist suivant l'heure de la journée
-CREATE OR REPLACE MATERIALIZED VIEW MV_How_many_users_listening_a_kind_of_playlist_by_hour_per_day
+CREATE MATERIALIZED VIEW MV_How_many_users_listening_a_kind_of_playlist_by_hour_per_day
 BUILD IMMEDIATE
 REFRESH FAST
 ON DEMAND
@@ -38,7 +38,7 @@ GROUP BY GENRE
 WITH CHECK OPTION;
 
 -- Connaître les premiers musiques les plus écoutées sur les dernières 24 heures
-CREATE OR REPLACE MATERIALIZED VIEW MV_Most_listening_musics_on_last_24h
+CREATE MATERIALIZED VIEW MV_Most_listening_musics_on_last_24h
 BUILD IMMEDIATE
 REFRESH FAST
 ON DEMAND
@@ -53,7 +53,7 @@ ORDER BY NB_USER_LISTENINGS ASC
 ;
 
 -- Connaître les genres musicaux préférés de chaque utilisateur grâce à ces derniers streams pour proposer des playlist similaires
-CREATE OR REPLACE MATERIALIZED VIEW MV_User_music_genre_preferences
+CREATE MATERIALIZED VIEW MV_User_music_genre_preferences
 BUILD IMMEDIATE
 REFRESH FAST
 ON DEMAND
@@ -70,25 +70,25 @@ GROUP BY NAME, EMAIL, TITLE, GENRE;
 
 -- **** À enlever je pense ****
 -- Le prix moyen dépensé par mois par les utilisateurs écoutant un grande quantité de musique (plus de 30) par jour
-CREATE OR REPLACE MATERIALIZED VIEW MV_Avg_
-BUILD IMMEDIATE
-REFRESH FAST
-ON DEMAND
-ENABLE QUERY REWRITE
-AS
-SELECT NAME, EMAIL, TITLE, GENRE SUM(STREAM_DURATION) AS NBL PLAYLIST_DIM.TITLE, PLAYLIST_DIM.GENRE
-FROM USER_DIM, SPOTIFY_STREAM, DATE_DIM, PLAYLIST_DIM
-WHERE USER_DIM.USER_KEY = SPOTIFY_STREAM.USER_KEY
-AND DATE_DIM.DATE_KEY = SPOTIFY_STREAM.DATE_KEY
-AND PLAYLIST_DIM.PLAYLIST_KEY = SPOTIFY_STREAM.PLAYLIST_KEY
-AND FULL_DATE BETWEEN EXTRACT(DAY FROM CURRENT_DATE) AND (EXTRACT(DAY FROM CURRENT_DATE) - 7)
-ORDER BY NBL ASC
-GROUP BY NAME, EMAIL, TITLE, GENRE;
+-- CREATE MATERIALIZED VIEW MV_Avg_
+-- BUILD IMMEDIATE
+-- REFRESH FAST
+-- ON DEMAND
+-- ENABLE QUERY REWRITE
+-- AS
+-- SELECT NAME, EMAIL, TITLE, GENRE SUM(STREAM_DURATION) AS NBL PLAYLIST_DIM.TITLE, PLAYLIST_DIM.GENRE
+-- FROM USER_DIM, SPOTIFY_STREAM, DATE_DIM, PLAYLIST_DIM
+-- WHERE USER_DIM.USER_KEY = SPOTIFY_STREAM.USER_KEY
+-- AND DATE_DIM.DATE_KEY = SPOTIFY_STREAM.DATE_KEY
+-- AND PLAYLIST_DIM.PLAYLIST_KEY = SPOTIFY_STREAM.PLAYLIST_KEY
+-- AND FULL_DATE BETWEEN EXTRACT(DAY FROM CURRENT_DATE) AND (EXTRACT(DAY FROM CURRENT_DATE) - 7)
+-- ORDER BY NBL ASC
+-- GROUP BY NAME, EMAIL, TITLE, GENRE;
 -- **** À enlever je pense ****
 
 
 -- Analyser quelles sont les promotions les plus efficaces grâce au nombre d'abonnements suivant une promotion donnée
-CREATE OR REPLACE MATERIALIZED VIEW MV_values_of_each_promotion
+CREATE MATERIALIZED VIEW MV_values_of_each_promotion
 BUILD IMMEDIATE
 REFRESH FAST
 ON DEMAND
@@ -102,7 +102,7 @@ AND SUBSCRIPTION_TYPE_DIM.SUBSCRIPTION_TYPE_KEY = SPOTIFY_SUBSCRIPTION_DIM.SUBSC
 GROUP BY PROMOTION_NAME;
 
 -- Analyser les promotions menant le plus souvent à un abonnement premium suivant l'âge d'un utilisateur
-CREATE OR REPLACE MATERIALIZED VIEW MV_promotion_reached_user_age
+CREATE MATERIALIZED VIEW MV_promotion_reached_user_age
 BUILD IMMEDIATE
 REFRESH FAST
 ON DEMAND
