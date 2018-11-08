@@ -740,8 +740,8 @@ INSERT INTO ARTIST_DIM VALUES (8,'Damso','09-Jun-1980','Rap','Congolese',4321564
 INSERT INTO ARTIST_DIM VALUES (9,'Rihanna','09-Jun-1980','R&B','Barbadian',30126458,7632145,'English',NULL,'03-Mar-2013');
 INSERT INTO ARTIST_DIM VALUES (10,'Kendrick Lamar','09-Jun-1980','Rap','American',29651324,6532148,'English',NULL,'03-Mar-2013');
 
-INSERT INTO MUSIC_DIM VALUES (1, 'Bella', 'Pop', '01-Jun-2013', 186, 'NO', 165, 'NO', 'YES');
-INSERT INTO MUSIC_DIM VALUES (2, 'Oulala', 'Pop', '23-Mar-2018', 192, 'NO', 153, 'NO', 'YES');
-INSERT INTO MUSIC_DIM VALUES (3, 'Only girl', 'Pop', '20-Feb-2010', 180, 'NO', 142, 'NO', 'YES');
-INSERT INTO MUSIC_DIM VALUES (4, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO', 'YES');
-INSERT INTO MUSIC_DIM VALUES (5, 'Djadja', 'Rap', '6-Apr-2018', 182, 'NO', 172, 'NO', 'YES');
+INSERT INTO MUSIC_DIM VALUES (1, 'Bella', 'Pop', '01-Jun-2013', 186, 'NO', 165, 'NO');
+INSERT INTO MUSIC_DIM VALUES (2, 'Oulala', 'Pop', '23-Mar-2018', 192, 'NO', 153, 'NO');
+INSERT INTO MUSIC_DIM VALUES (3, 'Only girl', 'Pop', '20-Feb-2010', 180, 'NO', 142, 'NO');
+INSERT INTO MUSIC_DIM VALUES (4, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO');
+INSERT INTO MUSIC_DIM VALUES (5, 'Djadja', 'Rap', '6-Apr-2018', 182, 'NO', 172, 'NO');
