@@ -667,35 +667,62 @@ INSERT INTO PROMOTION_DIM VALUES (1,'Premium a 0.99€ durant 3 Mois',27,'PC, Ph
 INSERT INTO PROMOTION_DIM VALUES (2,'3 Mois Premium a 9.99€',19.98,'PC, Phone, Tablet','Mail, Web Site, Application','07-Jun-2018','01-Jul-2018',NULL);
 INSERT INTO PROMOTION_DIM VALUES (3,'2 Mois Premium Gratuit',19.98,'PC, Phone, Tablet','Mail, Web Sit, Applicatione','15-Sep-2018','20-Sep-2018',NULL);
 
------------------------------------------------------------------ REMPLISSAGE DATE_DIM ----------------------------------------------------------------------------------------
+------------------------------------------------------------------- REMPLISSAGE DATE_DIM -------------------------------------------------------------------------------------------
 
-DECLARE @start_date DATE;
-DECLARE @end_date DATE;
-
-SET @start_date = '2018-Jan-01';
-SET @start_date = '2018-Dec-31';
-
-WITH DATE_DIM
-AS
-(
-    SELECT @start_date as date_val
-    UNION ALL
-    SELECT DATEADD(DAY, 1, date_val)
-    FROM DATE_DIM
-    WHERE DATEADD(DAY, 1, date_val) <= @end_date
+INSERT INTO DATE_DIM(
+    DATE_KEY,
+    FULL_DATE,
+    DAY,
+    MONTH,
+    YEAR,
+    SEASON,
+    WEEKEND_INDICATOR,
+    GIFT_PERIOD_INDICATOR
 )
-
-INSERT INTO DATE_DIM
 SELECT
-    FORMAT(date_val, 'yyyymmdd') AS DATE_KEY,
-    TO_DATE(date_val) AS FULL_DATE,
-    EXTRACT(DAY FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS DAY,
-    EXTRACT(MONTH FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS MONTH,
-    EXTRACT(YEAR FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS YEAR,
-    'UNKNOWN' AS SEASON,
-    'NO' AS WEEKEND_INDICATOR,
-    'NO' AS GIFT_PERIOD_INDICATOR,
+    TO_CHAR(TO_DATE('31/12/2017','DD/MM/YYYY') + NUMTODSINTERVAL(n,'day'),'yyyymmdd'),
+    TO_DATE('31/12/2017','DD/MM/YYYY') + NUMTODSINTERVAL(n,'day'),
+    TO_CHAR(TO_DATE('31/12/2017','DD/MM/YYYY') + NUMTODSINTERVAL(n,'day'),'Dy'),
+    TO_CHAR(TO_DATE('31/12/2017','DD/MM/YYYY') + NUMTODSINTERVAL(n,'day'),'Mon'),
+    TO_CHAR(TO_DATE('31/12/2017','DD/MM/YYYY') + NUMTODSINTERVAL(n,'day'),'YYYY'),
+    'NONE',
+    'NO',
+    'NO'
+    FROM (
+        SELECT level n
+        FROM dual
+        CONNECT BY level <= 312
+);
 
-FROM
-    DATE_DIM
--- OPTION (maxrecursion 0)
+------------------------------------------------------------------- REMPLISSAGE TIME_DIM -------------------------------------------------------------------------------------------
+
+INSERT INTO TIME_DIM (
+    TIME_KEY,
+    TIME_DESC,
+    TIME_IN24_NAME,
+    TIME_HOUR24_MINUTE,
+    TIME_HOUR_NAME,
+    TIME_MINUTE_AMPM,
+    TIME_HOUR,
+    TIME_HOUR24,
+    TIME_MINUTE,
+    TIME_SECOND,
+    TIME_AMPM_CODE
+)
+SELECT
+    to_char(t, 'HH24MISS'),
+    to_char(t, 'HH:MI:SS AM'),
+    to_char(t, 'HH24:MI:SS'),
+    to_char(t, 'HH24:MI'),
+    to_char(t, 'HH AM'),
+    to_char(t, 'HH:MI AM'),
+    to_number(to_char(t, 'HH'), '00'),
+    to_number(to_char(t, 'HH24'), '00'),
+    to_number(to_char(t, 'MI'), '00'),
+    to_number(to_char(t, 'SS'), '00'),
+    to_char(t, 'AM')
+    FROM (
+        SELECT trunc(sysdate) + (level - 1)/86400 AS t
+        FROM dual
+        CONNECT BY level <= 86400
+);
