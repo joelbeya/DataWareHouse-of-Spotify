@@ -730,3 +730,12 @@ INSERT INTO PROMOTION_DIM VALUES (3,'2 Mois Premium Gratuit',19.98,'PC, Phone, T
 ------------------------------------------------------------------ REMPLISSAGE ARTIST_DIM ------------------------------------------------------------------------------------------
 
 INSERT INTO ARTIST_DIM VALUES (1,'Maitre Gims','09-Jun-1980','French Variety','Congolese',2241536,542316,'French',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (2,'Booba','09-Jun-1980','Rap','Senegalese',2321650,345978,'French',NULL,'15-Jun-2013');
+INSERT INTO ARTIST_DIM VALUES (3,'Francis Cabrel','09-Jun-1980','French Variety','French',895623,83000,'French',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (4,'Dinah Washington','09-Jun-1980','Soul','American',1023363,542316,'English',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (5,'Nina Simone','09-Jun-1980','Soul','American',803654,201679,'English',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (6,'John Coltrane','09-Jun-1980','Jazz','American',1563247,720146,'English',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (7,'Aya Nakamura','09-Jun-1980','French Variety','Congolese',7365478,3012564,'French',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (8,'Damso','09-Jun-1980','Rap','Congolese',4321564,1365987,'French',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (9,'Rihanna','09-Jun-1980','R&B','Barbadian',30126458,7632145,'English',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (10,'Kendrick Lamar','09-Jun-1980','Rap','American',29651324,6532148,'English',NULL,'03-Mar-2013');
