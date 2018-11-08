@@ -1,12 +1,18 @@
 ### Todo
  * Remplir la BDD
  * Faire la présentation
- * Créer un seul fichier de création pour la base de données ?
 
 ### Doing
  * Donner les justifications pour les datamarts
  * Terminer le fichier de remplissage de l'entrepôt
+<<<<<<< HEAD
+=======
  * Faire les requêtes analytiques
+ * Finir la question 9
+>>>>>>> 165c000f941b4b95d5d2f5e66f78b014fa514bf9
 
 ### Done
+ * Créer un seul fichier de création pour la base de données ?
  * Retirer la dimension temps pour l'abonnement (partout où elle apparaît)  
+ * Faire la question 9
+ * Faire les requêtes analytiques
