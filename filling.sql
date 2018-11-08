@@ -745,3 +745,7 @@ INSERT INTO MUSIC_DIM VALUES (2, 'Oulala', 'Pop', '23-Mar-2018', 192, 'NO', 153,
 INSERT INTO MUSIC_DIM VALUES (3, 'Only girl', 'Pop', '20-Feb-2010', 180, 'NO', 142, 'NO');
 INSERT INTO MUSIC_DIM VALUES (4, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO');
 INSERT INTO MUSIC_DIM VALUES (5, 'Djadja', 'Rap', '6-Apr-2018', 182, 'NO', 172, 'NO');
+
+INSERT INTO PLAYLIST_DIM VALUES (1, 'La base', 'Spotify', 'Ben la base quoi', 2018, 5, 'De tout', 'NONE', 1221);
+
+INSERT INTO SPOTIFY_STREAM VALUES (1, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO', 'YES');
