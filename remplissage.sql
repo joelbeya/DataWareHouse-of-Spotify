@@ -658,7 +658,7 @@ INSERT INTO PLATFORM_DIM VALUES (63,'Linux','PC',NULL,NULL,'GNU/Linux',NULL,NULL
 
 INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (1,'FREE','Free Subscription','Everyone',1,0.00,1,'160 KBPS','NO');
 INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (2,'PREMIUM','Premium Subscription','Everyone',1,9.99,1,'320 KBPS','YES');
-INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (3,'FAMILY PREMIUM','Free Subscription','Families',1,14.99,4,'320 KBPS','YES');
-INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (4,'STUDENT PREMIUM','Free Subscription','Students',1,4.99,1,'320 KBPS','YES');
+INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (3,'FAMILY PREMIUM','Premium Subscription for 4 People','Families',1,14.99,4,'320 KBPS','YES');
+INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (4,'STUDENT PREMIUM','Premium Subscription for Students (50% Off)','Students',1,4.99,1,'320 KBPS','YES');
 
--------------------------------------------------------------- REMPLISSAGE PROMOTION_DIM ---------------------------------------------------------------------------------------------
+----------------------------------------------------------------- REMPLISSAGE PROMOTION_DIM ----------------------------------------------------------------------------------------
