@@ -694,4 +694,4 @@ SELECT
 
 FROM
     DATE_DIM
-OPTION (maxrecursion 0)
+OPTION (maxrecursion 0);
