@@ -4,8 +4,8 @@ INSERT INTO USER_DIM VALUES (1,'Christophe','christophe.quenette@etu-umontpellie
 INSERT INTO USER_DIM VALUES (2,'Teiki','taiki.raihauti@etu-umontpellier.fr','M','25-Dec-1997','34000','Montpellier','France','Europe','NONE','SAMSUNG');
 INSERT INTO USER_DIM VALUES (3,'Dareine','imrhan-dareine.minko-amoa@etu-umontpellier.fr','M','13-Mar-1998','34000','Montpellier','France','Europe','VISA','SAMSUNG');
 INSERT INTO USER_DIM VALUES (4,'Joel','joel.beya@etu-umontpellier.fr','M','02-Jun-1994','34000','Montpellier','France','Europe','NONE','SAMSUNG');
-INSERT INTO USER_DIM VALUES (5,'Federico','fe.Nunc@umontpellier.fr','M','06-Jun-1982','64144','Montpellier','France','Europe','GIFT CARD','HUAWEI');
-INSERT INTO USER_DIM VALUES (6,'Anne-Murielle','am@umontpellier.frt','F','21-Aug-1983','133372','Montpellier','France','Europe','MASTERCARD','WIKO');
+INSERT INTO USER_DIM VALUES (5,'Federico','fe.Nunc@umontpellier.fr','M','06-Jun-1982','64144','Montpellier','France','Europe','VISA','IPHONE');
+INSERT INTO USER_DIM VALUES (6,'Anne-Murielle','am@umontpellier.frt','F','21-Aug-1983','133372','Montpellier','France','Europe','VISA','IPHONE');
 INSERT INTO USER_DIM VALUES (7,'Leonardo','sed@mitempor.ca','F','24-Jan-1984','523981','Cabo de Hornos','Chile','South-America','MASTERCARD','XIAOMI');
 INSERT INTO USER_DIM VALUES (8,'Dimitri','Quisque@Nuncmauriselit.co.uk','F','04-Sep-1971','68714','Saint-Sébastien-sur-Loire','France','Europe','MASTERCARD','ALCATEL');
 INSERT INTO USER_DIM VALUES (9,'Audra','id@pellentesquemassalobortis.edu','F','29-Jul-1967','T2W 0A2','Barrhead','Canada','North-America','GIFT CARD','XIAOMI');
@@ -662,3 +662,40 @@ INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (3,'FAMILY PREMIUM','Premium Subscripti
 INSERT INTO SUBSCRIPTION_TYPE_DIM VALUES (4,'STUDENT PREMIUM','Premium Subscription for Students (50% Off)','Students',1,4.99,1,'320 KBPS','YES');
 
 ----------------------------------------------------------------- REMPLISSAGE PROMOTION_DIM ----------------------------------------------------------------------------------------
+
+INSERT INTO PROMOTION_DIM VALUES (1,'Premium a 0.99€ durant 3 Mois',27,'PC, Phone, Tablet','Mail, Web Site, Application','03-Mar-2018','10-Mar-2018',NULL);
+INSERT INTO PROMOTION_DIM VALUES (2,'3 Mois Premium a 9.99€',19.98,'PC, Phone, Tablet','Mail, Web Site, Application','07-Jun-2018','01-Jul-2018',NULL);
+INSERT INTO PROMOTION_DIM VALUES (3,'2 Mois Premium Gratuit',19.98,'PC, Phone, Tablet','Mail, Web Sit, Applicatione','15-Sep-2018','20-Sep-2018',NULL);
+
+----------------------------------------------------------------- REMPLISSAGE DATE_DIM ----------------------------------------------------------------------------------------
+
+DECLARE @start_date DATE;
+DECLARE @end_date DATE;
+
+SET @start_date = '2018-01-01';
+SET @start_date = '2018-12-31';
+
+WITH DATE_DIM
+AS
+(
+    SELECT @start_date as date_val
+    UNION ALL
+    SELECT DATEADD(DAY, 1, date_val)
+    FROM DATE_DIM
+    WHERE DATEADD(DAY, 1, date_val) <= @end_date
+)
+
+INSERT INTO DATE_DIM
+SELECT
+    FORMAT(date_val, 'yyyymmdd') AS DATE_KEY,
+    TO_DATE(date_val) AS FULL_DATE,
+    EXTRACT(DAY FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS DAY,
+    EXTRACT(MONTH FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS MONTH,
+    EXTRACT(YEAR FROM TO_DATE(date_val, 'YYYY-MM-DD')) AS YEAR,
+    'UNKNOWN' AS SEASON,
+    'NO' AS WEEKEND_INDICATOR,
+    'NO' AS GIFT_PERIOD_INDICATOR,
+
+FROM
+    DATE_DIM
+OPTION (maxrecursion 0)
