@@ -672,8 +672,8 @@ INSERT INTO PROMOTION_DIM VALUES (3,'2 Mois Premium Gratuit',19.98,'PC, Phone, T
 DECLARE @start_date DATE;
 DECLARE @end_date DATE;
 
-SET @start_date = '2018-01-01';
-SET @start_date = '2018-12-31';
+SET @start_date = '2018-Jan-01';
+SET @start_date = '2018-Dec-31';
 
 WITH DATE_DIM
 AS
@@ -698,4 +698,4 @@ SELECT
 
 FROM
     DATE_DIM
-OPTION (maxrecursion 0)
+-- OPTION (maxrecursion 0)
