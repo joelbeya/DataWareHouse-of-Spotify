@@ -100,7 +100,6 @@ INSERT INTO USER_DIM VALUES (97,'Tanner','urna.justo.faucibus@duiaugue.org','M',
 INSERT INTO USER_DIM VALUES (98,'Liberty','et.magnis@bibendumDonecfelis.org','F','08-May-1998','424866','Maiduguri','Nigeria','Africa','GIFT CARD','ONEPLUS');
 INSERT INTO USER_DIM VALUES (99,'Akhila','mollis@velpedeblandit.org','M','13-Sep-1982','898714','Daman','India','Asia','MASTERCARD','WIKO');
 INSERT INTO USER_DIM VALUES (100,'Angela','eu.metus.In@fermentumvelmauris.net','M','23-Mar-2009','99285','Idaho Falls','United States','North-America','NONE','SAMSUNG');
-INSERT INTO USER_DIM VALUES (100,'Ciaran','interdum.enim.non@primis.ca','F','09-Feb-2006','Q5 8VL','Puebla','Mexico','North-America','VISA','SONY');
 INSERT INTO USER_DIM VALUES (101,'Wanda','cursus.non@cursusInteger.com','M','30-Aug-2009','92771','Mexico','Mexico','North-America','AMERICAN EXPRESS','SAMSUNG');
 INSERT INTO USER_DIM VALUES (102,'Jolene','lorem.vehicula.et@Vestibulumante.ca','M','09-May-1975','02841','Cancun','Mexico','North-America','GIFT CARD','NONE');
 INSERT INTO USER_DIM VALUES (103,'Mason','dolor.sit@Quisque.net','F','01-Jan-2004','45006','Guadalajara','Mexico','North-America','GIFT CARD','SONY');
@@ -148,6 +147,7 @@ INSERT INTO USER_DIM VALUES (144,'Adrian','lacinia.at.iaculis@utpellentesqueeget
 INSERT INTO USER_DIM VALUES (145,'Emmanuel','tempor.augue.ac@Aeneaneuismod.org','M','24-Oct-1975','83167','Akuyeri','Iceland','Europe','NONE','ZTE');
 INSERT INTO USER_DIM VALUES (146,'Xantha','a.enim@augueacipsum.net','M','23-Mar-1992','9581','Vik i Myrdal','Iceland','Europe','MASTERCARD','BQ');
 INSERT INTO USER_DIM VALUES (147,'Jenette','ac.eleifend.vitae@Cum.co.uk','F','22-Mar-2009','25526','Vik i Myrdal','Iceland','Europe','AMERICAN EXPRESS','ZTE');
+INSERT INTO USER_DIM VALUES (148,'Ciaran','interdum.enim.non@primis.ca','F','09-Feb-2006','Q5 8VL','Puebla','Mexico','North-America','VISA','SONY');
 INSERT INTO USER_DIM VALUES (149,'Zaphina','ornare.libero.at@et.net','F','13-Jun-2005','9740','Piriapolis','Uruguay','South-America','NONE','NONE');
 INSERT INTO USER_DIM VALUES (150,'Mikayla','In@acurna.org','M','20-Nov-1984','P0C 0A4','Salto','Uruguay','South-America','VISA','NONE');
 INSERT INTO USER_DIM VALUES (151,'Stella','ut@nectempusmauris.edu','F','26-Jun-1997','0806','Montevideo','Uruguay','South-America','NONE','ONEPLUS');
