@@ -737,15 +737,38 @@ INSERT INTO ARTIST_DIM VALUES (5,'Nina Simone','09-Jun-1980','Soul','American',8
 INSERT INTO ARTIST_DIM VALUES (6,'John Coltrane','09-Jun-1980','Jazz','American',1563247,720146,'English',NULL,'03-Mar-2013');
 INSERT INTO ARTIST_DIM VALUES (7,'Aya Nakamura','09-Jun-1980','French Variety','Congolese',7365478,3012564,'French',NULL,'03-Mar-2013');
 INSERT INTO ARTIST_DIM VALUES (8,'Damso','09-Jun-1980','Rap','Congolese',4321564,1365987,'French',NULL,'03-Mar-2013');
-INSERT INTO ARTIST_DIM VALUES (9,'Rihanna','09-Jun-1980','R&B','Barbadian',30126458,7632145,'English',NULL,'03-Mar-2013');
+INSERT INTO ARTIST_DIM VALUES (9,'Rihanna','09-Jun-1980','R and B','Barbadian',30126458,7632145,'English',NULL,'03-Mar-2013');
 INSERT INTO ARTIST_DIM VALUES (10,'Kendrick Lamar','09-Jun-1980','Rap','American',29651324,6532148,'English',NULL,'03-Mar-2013');
+
+
+------------------------------------------------------------------ REMPLISSAGE MUSIC_DIM ------------------------------------------------------------------------------------------
 
 INSERT INTO MUSIC_DIM VALUES (1, 'Bella', 'Pop', '01-Jun-2013', 186, 'NO', 165, 'NO');
 INSERT INTO MUSIC_DIM VALUES (2, 'Oulala', 'Pop', '23-Mar-2018', 192, 'NO', 153, 'NO');
 INSERT INTO MUSIC_DIM VALUES (3, 'Only girl', 'Pop', '20-Feb-2010', 180, 'NO', 142, 'NO');
 INSERT INTO MUSIC_DIM VALUES (4, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO');
 INSERT INTO MUSIC_DIM VALUES (5, 'Djadja', 'Rap', '6-Apr-2018', 182, 'NO', 172, 'NO');
+INSERT INTO MUSIC_DIM VALUES (6,'Mad ABout The Boy','Soul','05-May-1968',145,'NO',96,'NO');
+INSERT INTO MUSIC_DIM VALUES (7,'What A Diffrence A Day Makes','Soul','12-Feb-1980',156,'NO',96,'NO');
+INSERT INTO MUSIC_DIM VALUES (8,'Four Women','Soul','23-Jun-1980',145,'NO',96,'NO');
+INSERT INTO MUSIC_DIM VALUES (9,'Marriage Is For Old Folks','Soul','04-May-1968',145,'NO',96,'NO');
+INSERT INTO MUSIC_DIM VALUES (10,'Samedi Soir Sur La Terre','Pop','05-May-1995',145,'NO',110,'NO');
+INSERT INTO MUSIC_DIM VALUES (11,'Petite Marie','Pop','05-Jul-1997',145,'NO',110,'NO');
+INSERT INTO MUSIC_DIM VALUES (12,'HUMBLE.','Rap','05-Jun-2017',145,'NO',130,'NO');
+INSERT INTO MUSIC_DIM VALUES (13,'Hoods Politic','Rap','05-May-2014',145,'NO',120,'NO');
+INSERT INTO MUSIC_DIM VALUES (14,'Naima','Jazz','05-May-1968',145,'NO',96,'NO');
+INSERT INTO MUSIC_DIM VALUES (15,'A Day In Wellington','Jazz','05-May-1968',145,'NO',96,'NO');
+INSERT INTO MUSIC_DIM VALUES (16,'Sucette','Pop','05-May-2018',145,'NO',120,'NO');
+INSERT INTO MUSIC_DIM VALUES (17,'Mosaique Solitaire','Rap','05-May-2017',145,'NO',125,'NO');
+INSERT INTO MUSIC_DIM VALUES (18,'Rehab','R and B','30-May-2012',145,'NO',112,'NO');
+INSERT INTO MUSIC_DIM VALUES (19,'Kalash','Rap','05-May-2013',145,'NO',135,'NO');
+INSERT INTO MUSIC_DIM VALUES (20,'Boulbi','Rap','05-May-2004',145,'NO',96,'NO');
+INSERT INTO MUSIC_DIM VALUES (21,'Thriller','Pop','05-May-1975',145,'NO',96,'NO');
+
+------------------------------------------------------------------ REMPLISSAGE PLAYLIST_DIM ------------------------------------------------------------------------------------------
 
 INSERT INTO PLAYLIST_DIM VALUES (1, 'La base', 'Spotify', 'Ben la base quoi', 2018, 5, 'De tout', 'NONE', 1221);
+
+------------------------------------------------------------------ REMPLISSAGE SPOTIFY_STREAM ------------------------------------------------------------------------------------------
 
 INSERT INTO SPOTIFY_STREAM VALUES (1, 'Aux paradis', 'Rap', '20-May-2018', 203, 'NO', 145, 'NO', 'YES');
